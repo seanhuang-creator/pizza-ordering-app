@@ -36,7 +36,7 @@ Backend - one command, at solution root or backend folder:
 ```bash
 # Option A - at solution root (recommended, runs migrations automatically)
 dotnet run --project backend/PizzaApi.csproj
-# API: https://localhost:7056 or http://localhost:5056
+# API: https://localhost:7056 or http://localhost:5000
 # Swagger: https://localhost:7056/swagger
 
 # Option B - inside backend folder
@@ -116,6 +116,7 @@ All tests pass using dotnet test and npm test (TST-4).
 
 ## Ports and Configuration
 
-- Backend default: http://localhost:5056 (see backend/Properties/launchSettings.json)
-- Frontend expects API at http://localhost:5056 - change via frontend/.env: VITE_API_URL=http://localhost:5056
+- Backend default: http://localhost:5000 (see backend/Properties/launchSettings.json)
+- Frontend expects API at http://localhost:5000 - change via frontend/.env: VITE_API_URL=http://localhost:5000
 - CORS: Program.cs allows http://localhost:5173
+
