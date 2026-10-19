@@ -1,4 +1,4 @@
-# Sean's Pizzeria - Pizza Ordering System
+﻿# Sean's Pizzeria - Pizza Ordering System
 
 CIS-2225 Assignment 3 - React (Vite) + ASP.NET Core Web API + SQLite
 
@@ -15,7 +15,7 @@ CIS-2225 Assignment 3 - React (Vite) + ASP.NET Core Web API + SQLite
 Prerequisites: .NET 8 SDK, Node.js 18+, npm
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/seanhuang-creator/pizza-ordering-app.git
 cd pizza-ordering-app
 
 # Backend
