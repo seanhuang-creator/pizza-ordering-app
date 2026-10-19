@@ -1,0 +1,20 @@
+﻿# .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+.idea/
+*.db
+*.sqlite
+
+# Node / Frontend
+node_modules/
+frontend/dist/
+frontend/.angular/
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
